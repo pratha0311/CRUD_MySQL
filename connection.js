@@ -10,7 +10,7 @@ var con = mysql.createConnection({
   
 con.connect((err) =>{
       if(err) throw err;
-      con.query("CREATE DATABASE HEHEHEH", () =>{
+      con.query("CREATE DATABASE", () =>{
         console.log("DATABASE CREATED!!")
       })
   })
